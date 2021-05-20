@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.mainapp.MainPageFragment"
+    android:background="@drawable/login2"
+    >
+
+
+    <Button
+        android:id="@+id/button_startChallenge"
+        android:layout_width="158dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="@font/antic_didone"
+        android:text="start"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282"
+        android:background="@drawable/custom_btn"/>
+
+    <Button
+        android:id="@+id/button_shopping"
+        android:layout_width="162dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/antic_didone"
+        android:text="Shopping list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_startChallenge"
+        android:background="@drawable/custom_btn"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

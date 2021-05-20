@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_app_graph"
+    app:startDestination="@id/mainPageFragment">
+
+    <fragment
+        android:id="@+id/mainPageFragment"
+        android:name="com.example.and_assignment.views.mainapp.MainPageFragment"
+        android:label=""
+        tools:layout="@layout/fragment_main_page">
+        <action
+            android:id="@+id/action_mainPageFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_mainPageFragment_to_challengePageFragment"
+            app:destination="@id/challengePageFragment" />
+        <action
+            android:id="@+id/action_mainPageFragment_to_shoppingListFragment"
+            app:destination="@id/shoppingListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.and_assignment.views.mainapp.SettingsFragment"
+        android:label=""
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/challengePageFragment"
+        android:name="com.example.and_assignment.views.challenge.ChallengePageFragment"
+        android:label=""
+        tools:layout="@layout/fragment_challanges_page" >
+        <action
+            android:id="@+id/action_challengePageFragment_to_dayFragment2"
+            app:destination="@id/dayFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/dayFragment2"
+        android:name="com.example.and_assignment.views.challenge.DayFragment"
+        android:label=""
+        tools:layout="@layout/fragment_day" >
+        <action
+            android:id="@+id/action_dayFragment2_to_videoFragment"
+            app:destination="@id/videoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.example.and_assignment.views.challenge.VideoFragment"
+        android:label="Go back"
+        tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/shoppingListFragment"
+        android:name="com.example.and_assignment.views.shopping.ShoppingListFragment"
+        android:label=""
+        tools:layout="@layout/fragment_shopping_list" >
+        <action
+            android:id="@+id/action_shoppingListFragment_to_itemListFragment"
+            app:destination="@id/itemListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemListFragment"
+        android:name="com.example.and_assignment.views.shopping.ItemListFragment"
+        android:label=""
+        tools:layout="@layout/fragment_item_list" >
+        <argument
+            android:name="category_id"
+            app:argType="integer" />
+    </fragment>
+</navigation>

@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Settings">
+        <Preference
+            app:key="report_problem"
+            app:title="Report a problem">
+            <intent
+                android:action="android.intent.action.SEND"
+                android:data = "esteradum26@gamil.com"
+                android:mimeType="text/email"/>
+        </Preference>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
