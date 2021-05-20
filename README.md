@@ -28,7 +28,7 @@ LOW:
 
 NOT IMPLEMENTED:
 
-14. As a user, I want to be able to find the closest gyms around me so that I will not spend time searching for it if I wnat to do my workout at the gym.
+14. As a user, I want to be able to find the closest gyms around me so that I will not spend time searching for it if I want to do my workout at the gym.
 15. As a user, I want to have the option to confirm that I completed one day so that I can always remember where I left off.
 16. As a user, I want to see the number of calories that a meal contains, so that I can keep track of my daily intake.
 17. As a user, I want to have a progress overview, so that I can keep track of my evolution during the challenge and keep myself motivated.
