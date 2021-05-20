@@ -1,5 +1,7 @@
 #14 DAYS FITNESS CHALLANGE
 
+APP PRESENTATION: https://youtu.be/9x969oDPjmM
+
 I find it hard to find recipes with interesting and healthy food every day and it can take a lot of time to find some. The same goes with the workouts there are so many on the internet, but you just have to follow the right one. Taking this into consideration, I decided to create this app which is 14 days fitness challange app where you keep track of you progress and every day you have to follow a diet and a workout plan. You are provided with a meal and a workout for every day in order to get considerable results after just 2 weeks. This can boost the confidence of an individual and after experimenting with all this different kind of healthy food and workouts it might change your lifestyle.
 
 REQUIREMENTS:
