@@ -37,4 +37,4 @@ NOT IMPLEMENTED:
 16. As a user, I want to see the number of calories that a meal contains, so that I can keep track of my daily intake.
 17. As a user, I want to have a progress overview, so that I can keep track of my evolution during the challenge and keep myself motivated.
 
-
+REFERENCES:https://www.youtube.com/watch?v=mfqOug9HyX4&t=215s&ab_channel=LearningWorldz
