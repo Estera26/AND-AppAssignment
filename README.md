@@ -34,5 +34,4 @@ NOT IMPLEMENTED:
 15. As a user, I want to have the option to confirm that I completed one day so that I can always remember where I left off.
 16. As a user, I want to see the number of calories that a meal contains, so that I can keep track of my daily intake.
 17. As a user, I want to have a progress overview, so that I can keep track of my evolution during the challenge and keep myself motivated.
-18. As a user, I want to be able to sign in using my email or Facebook account, so that I can provide my information faster and easier.
 
